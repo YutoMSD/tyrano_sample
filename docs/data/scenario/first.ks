@@ -1,46 +1,63 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="鉄系超伝導"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+[bg storage=bg_chiheisen_green.jpg time=500]
 
-メロスは激怒した。[l][r]
+「鉄系超伝導」[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+鉄系超伝導体を発見しよう！[l][r]
 
-(中略)[l][r]
+[link target=*tag_period] →作って、測る [endlink][r]
+[link target=*tag_book] →書斎にこもる [endlink][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
 [s]
 
-*tag_sleep
-
+*tag_period
+[bg storage=bg_chiheisen_green.jpg time=500]
 [cm]
+LaFeAsを合成した。[l][r]
+[link target=*tag_success] →とりあえず冷やしてみる。 [endlink][r]
+[link target=*tag_book2] →よくわからないので家に帰る。 [endlink][r]
+[s]
+
+*tag_success
+[bg storage=run.jpeg time=500]
+[cm]
+4 Kに到達[l][r]
+...[l][r]
+...[l][r]
+なんと電気抵抗が突然0になった！[l][r]
+初の鉄系超伝導体の発見である！[r]
+「作って、測る」この精神を忘れないでほしい。
+【 GOD END 】[l][cm]
+[jump target=*start]
+
+*tag_book2
 
 [bg storage=sleep.jpg time=500]
-
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[cm]
+結局眠るだけであった。[l][r]
+書斎に閉じこもっていては何も生み出せない。[l][r]
+塾員来往第62回を読め。[r]
+https://www.st.keio.ac.jp/departments/ob_relay/ob_0902.html
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_book
 
-[bg storage=run.jpg time=500]
-
+[bg storage=sleep.jpg time=500]
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+結局眠るだけであった。[l][r]
+書斎に閉じこもっていては何も生み出せない。[l][r]
+塾員来往第62回を読め。[r]
+https://www.st.keio.ac.jp/departments/ob_relay/ob_0902.html
 
-【 GOOD END 】[l][cm]
+【 BAD END 】[l][cm]
 
 [jump target=*start]
