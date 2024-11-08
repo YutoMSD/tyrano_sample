@@ -20,12 +20,15 @@
 [bg storage=bg_chiheisen_green.jpg time=500]
 [cm]
 LaFeAsを合成した。[l][r]
+ん～よくわからない物質だなあ。[l][r]
+非磁性ではあるみたいだ。[l][r]
+抵抗でも測ってみるか。[l][r]
 [link target=*tag_success] →とりあえず冷やしてみる。 [endlink][r]
 [link target=*tag_book2] →よくわからないので家に帰る。 [endlink][r]
 [s]
 
 *tag_success
-[bg storage=run.jpeg time=500]
+[bg storage=run.jpg time=500]
 [cm]
 4 Kに到達[l][r]
 ...[l][r]
