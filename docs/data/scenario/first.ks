@@ -8,7 +8,7 @@
 [wait time=200]
 [freeimage layer="base"]
 
-[bg storage=YAGAMI.jpg time=500]
+[bg storage=Yagami.jpg time=500]
 
 ;メッセージレイヤの位置とサイズを変更
 [position width=800 height=300 top=400 left=250]
@@ -49,7 +49,7 @@
 [s]
 
 *tag_yes
-[bg storage=meeting.jpg time=500]
+[bg storage=meeting.JPG time=500]
 [cm]
 「まずは超伝導について勉強しましょう。」[l][r]
 「超伝導は1911年にKammerlingh Onnesさんによって発見されました。」[l][r]
@@ -130,7 +130,7 @@
 [s]
 
 *path
-[bg storage=path.jpg time=500]
+[bg storage=path.JPG time=500]
 [cm]
 [quake count=1 time=2000 vmax=10]
 「研究室には慣れてきましたか？」[l][r]
@@ -169,6 +169,7 @@
 [cm]
 --実験室に到着[r]
 「合成する物質を決めましょう。」[r]
+[cm]
 [link target=*tag_tantai] →Pb [endlink][r]
 [link target=*tag_tantai] →Zn [endlink][r]
 [link target=*tag_tantai] →Ti [endlink][r]
