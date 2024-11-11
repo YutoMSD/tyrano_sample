@@ -1,19 +1,19 @@
 *start
 
 ;画像ファイルはフルパス（プロジェクトファイル以下）で指定してください
-[preload storage=""Z:\github\tyrano_sample\docs\data\bgimage\start.png""]
+[preload storage="Z:\github\tyrano_sample\docs\data\bgimage\start.png"]
 
 [title name="鉄系超伝導"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-[bg storage=Yagami.jpg time=500]
+[bg storage=Yagami.JPG time=500]
 
 ;メッセージレイヤの位置とサイズを変更
 [position width=800 height=300 top=400 left=250]
 ;メッセージレイヤの色と透明度を変更
-[position color=blue opacity=100]
+[position opacity=100 visible=true color=blue]
 
 鉄系超伝導体を発見しよう！[l][r]
 
@@ -32,7 +32,7 @@
 [edit name="f.test" top=500 left=260]
 
 [locate x=500 y=500]
-[button graphic="/image/config/arrow_next.png" target=*commit]
+[button graphic="start.png" target=*commit]
 
 [s]
 
@@ -57,10 +57,10 @@
 
 [cm]
 
-[link target=*tag_correct] →水銀 [endlink][r]
-[link target=*tag_wrong] →鉛 [endlink][r]
-[link target=*tag_wrong] →鉄 [endlink][r]
-[link target=*tag_wrong] →金 [endlink][r]
+[link target=*tag_correct] →Hg [endlink][r]
+[link target=*tag_wrong] →Pb [endlink][r]
+[link target=*tag_wrong] →Fe [endlink][r]
+[link target=*tag_wrong] →Au [endlink][r]
 
 [s]
 
@@ -157,7 +157,7 @@
 [commit name="syumi1"]
 [cm]
 ;入力されたテキストの内容を表示する
-「[emb exp=syumi1]ですか!?現代風な趣味ですね。」[l][r]
+「[emb exp=syumi1]ですか!?現代風な趣味ですね。いかしてますね。」[l][r]
 「私は若いころは油絵を描いておりまして、今は、ヲタクと呼ばれる人間になっています。」[l][r]
 「今度その[emb exp=syumi1]について詳しくお聞きしたいものですな。」[l][r]
 [jump storage=first.ks target=*synth]
@@ -194,17 +194,31 @@
 [cm]
 「鉄ですか。なかなかユニークな発想ですな。」[l][r]
 「とりあえず作って、測りましょう。」[l][r]
+「LaとかAsとかも混ぜてみようか。」[l][r]
 [cm]
 LaFeAsを合成した。[l][r]
 「ん～よくわからない物質だなあ。」[l][r]
 「非磁性ではあるみたいだ。」[l][r]
 「抵抗でも測ってみましょうか。」[l][r]
-[link target=*tag_success] →とりあえず冷やしてみる。 [endlink][r]
+[link target=*tag_cool] →とりあえず冷やしてみる。 [endlink][r]
 [link target=*tag_book] →よくわからないので家に帰る。 [endlink][r]
 [s]
 
+*tag_cool
+[cm]
+[link target=*tag_cooler] →冷やす。 [endlink][r]
+[link target=*tag_book] →家に帰る。 [endlink][r]
+[s]
 
+*tag_cooler
+[link target=*tag_coolest] →もっと冷やす。 [endlink][r]
+[link target=*tag_book] →家に帰る。 [endlink][r]
+[s]
 
+*tag_coolest
+[link target=*tag_success] →さらに冷やす。 [endlink][r]
+[link target=*tag_book] →家に帰る。 [endlink][r]
+[s]
 
 *tag_success
 [bg storage=run.jpg time=500]
