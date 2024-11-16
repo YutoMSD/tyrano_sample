@@ -24,7 +24,7 @@
 [s]
 
 *tag_period
-
+[bg storage=Yagami.JPG time=500]
 [cm]
 
 指導教官「お名前をお聞きしてもいいでしょうか。」[l][r]
@@ -37,6 +37,7 @@
 [s]
 
 *commit
+[bg storage=Yagami.JPG time=500]
 [commit name="f.test"]
 [cm]
 ;入力されたテキストの内容を表示する
@@ -65,6 +66,7 @@
 [s]
 
 *tag_correct
+[bg storage=meeting.JPG time=500]
 [cm]
 「正解です！」[l][r]
 「いや～ね。[emb exp=f.test]さま、博識ですね。」[l][r]
@@ -86,6 +88,7 @@
 [s]
 
 *quiz2
+[bg storage=meeting.JPG time=500]
 [cm]
 「Onnesさんは水銀の電気抵抗が4.2 K付近で急激に消失することを発見しました。」[l][r]
 「これが超伝導研究の始まりです。」[l][r]
@@ -96,6 +99,7 @@
 [s]
 
 *tag_quiz2doutai
+[bg storage=meeting.JPG time=500]
 [cm]
 「よく知られているのはそちらですね。」[l][r]
 「完全導電性も間違いではないのですが、不十分です。」[l][r]
@@ -105,6 +109,7 @@
 [s]
 
 *tag_quiz2hanjisei
+[bg storage=meeting.JPG time=500]
 [cm]
 「お～。詳しいですね。さすが[emb exp=f.test]さまですね。」[l][r]
 「そうです。完全反磁性こそが魅力的な現象なのです。」[l][r]
@@ -114,7 +119,9 @@
 [s]
 
 *jisoku
+[bg storage=meeting.JPG time=500]
 [cm]
+
 「超伝導体は試料内部への磁束の侵入を許しません。これを完全反磁性を言います。」[l][r]
 
 !?[l][r]
@@ -140,6 +147,7 @@
 [s]
 
 *tag_pathyes
+[bg storage=path.JPG time=500]
 [cm]
 「お！うれしいですね！」[l][r]
 「私も[emb exp=f.test]さまと研究ができて幸せです。」[l][r]
@@ -154,6 +162,7 @@
 [s]
 
 *syumi
+[bg storage=path.JPG time=500]
 [commit name="syumi1"]
 [cm]
 ;入力されたテキストの内容を表示する
@@ -168,8 +177,8 @@
 [bg storage=lab.jpg time=500]
 [cm]
 --実験室に到着[r]
-「合成する物質を決めましょう。」[r]
 [cm]
+「合成する物質を決めましょう。」[l][r]
 [link target=*tag_tantai] →Pb [endlink][r]
 [link target=*tag_tantai] →Zn [endlink][r]
 [link target=*tag_tantai] →Ti [endlink][r]
@@ -179,6 +188,7 @@
 [s]
 
 *tag_tantai
+[bg storage=lab.jpg time=500]
 [cm]
 「それは単体で超伝導を示すことが知られているから、他のにした方がおもしろいんじゃないかな？」[l][r]
 [cm]
@@ -191,6 +201,7 @@
 [s]
 
 *tag_Fe
+[bg storage=lab.jpg time=500]
 [cm]
 「鉄ですか。なかなかユニークな発想ですな。」[l][r]
 「とりあえず作って、測りましょう。」[l][r]
@@ -205,17 +216,22 @@ LaFeAsを合成した。[l][r]
 [s]
 
 *tag_cool
+[bg storage=lab.jpg time=500]
 [cm]
 [link target=*tag_cooler] →冷やす。 [endlink][r]
 [link target=*tag_book] →家に帰る。 [endlink][r]
 [s]
 
 *tag_cooler
+[bg storage=lab.jpg time=500]
+[cm]
 [link target=*tag_coolest] →もっと冷やす。 [endlink][r]
 [link target=*tag_book] →家に帰る。 [endlink][r]
 [s]
 
 *tag_coolest
+[bg storage=lab.jpg time=500]
+[cm]
 [link target=*tag_success] →さらに冷やす。 [endlink][r]
 [link target=*tag_book] →家に帰る。 [endlink][r]
 [s]
